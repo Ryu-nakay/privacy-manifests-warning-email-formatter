@@ -10,13 +10,24 @@ import XCTest
 
 final class PrivacyManifestsWarningEmailFormatterTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    let rawData = """
+    Hello,
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    We noticed one or more issues with a recent submission for App Store review for the following app:
+
+    SampelApp - Sample App
+    Version 1.0.0
+    Build 1
+    Although submission for App Store review was successful, you may want to correct the following issues in your next submission for App Store review. Once you've corrected the issues, upload a new binary to App Store Connect.
+
+    ITMS-91053: Missing API declaration - Your app’s code in the “PlugIns/SampleApp.appex/Sample Broadcast Upload Extension” file references one or more APIs that require reasons, including the following API categories: NSPrivacyAccessedAPICategoryDiskSpace. While no action is required at this time, starting May 1, 2024, when you upload a new app or app update, you must include a NSPrivacyAccessedAPITypes array in your app’s privacy manifest to provide approved reasons for these APIs used by your app’s code. For more details about this policy, including a list of required reason APIs and approved reasons for usage, visit: https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api.
+
+    ITMS-91053: Missing API declaration - Your app’s code in the “PlugIns/SampleApp Broadcast Upload Extension.appex/SampleApp Broadcast Upload Extension” file references one or more APIs that require reasons, including the following API categories: NSPrivacyAccessedAPICategoryFileTimestamp. While no action is required at this time, starting May 1, 2024, when you upload a new app or app update, you must include a NSPrivacyAccessedAPITypes array in your app’s privacy manifest to provide approved reasons for these APIs used by your app’s code. For more details about this policy, including a list of required reason APIs and approved reasons for usage, visit: https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api.
+
+    ITMS-91053: Missing API declaration - Your app’s code in the “PlugIns/SampleApp Broadcast Upload Extension.appex/SampleApp Broadcast Upload Extension” file references one or more APIs that require reasons, including the following API categories: NSPrivacyAccessedAPICategoryUserDefaults. While no action is required at this time, starting May 1, 2024, when you upload a new app or app update, you must include a NSPrivacyAccessedAPITypes array in your app’s privacy manifest to provide approved reasons for these APIs used by your app’s code. For more details about this policy, including a list of required reason APIs and approved reasons for usage, visit: https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api.
+
+    Apple Developer Relations
+    """
 
     func testExample() throws {
         // This is an example of a functional test case.
@@ -25,12 +36,4 @@ final class PrivacyManifestsWarningEmailFormatterTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
