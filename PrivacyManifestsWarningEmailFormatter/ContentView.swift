@@ -8,12 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var inputText = ""
+    @State var result = ""
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack {
+                TextEditor(text: $inputText)
+                    .padding()
+
+                Text("→")
+
+                TextEditor(text: $result)
+                    .padding()
+            }
+
+            Button {
+                result = EmailFormatter().format(from: inputText)
+            } label: {
+                Text("Format")
+            }
         }
         .padding()
     }

@@ -11,9 +11,8 @@
 		EFEE8AEF2BA5A38B006D1711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8AEE2BA5A38B006D1711 /* ContentView.swift */; };
 		EFEE8AF12BA5A38C006D1711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEE8AF02BA5A38C006D1711 /* Assets.xcassets */; };
 		EFEE8AF42BA5A38C006D1711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */; };
-		EFEE8AFF2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */; };
-		EFEE8B092BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */; };
-		EFEE8B0B2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */; };
+		EFEE8B182BA5C10C006D1711 /* EmailFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B172BA5C10C006D1711 /* EmailFormatter.swift */; };
+		EFEE8B1A2BA5C3AC006D1711 /* WarningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B192BA5C3AC006D1711 /* WarningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +40,9 @@
 		EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFEE8AF52BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivacyManifestsWarningEmailFormatter.entitlements; sourceTree = "<group>"; };
 		EFEE8AFA2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivacyManifestsWarningEmailFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterTests.swift; sourceTree = "<group>"; };
 		EFEE8B042BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivacyManifestsWarningEmailFormatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterUITests.swift; sourceTree = "<group>"; };
-		EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFEE8B172BA5C10C006D1711 /* EmailFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailFormatter.swift; sourceTree = "<group>"; };
+		EFEE8B192BA5C3AC006D1711 /* WarningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				EFEE8AEB2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */,
-				EFEE8AFD2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */,
-				EFEE8B072BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */,
 				EFEE8AEA2BA5A38B006D1711 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +93,8 @@
 			children = (
 				EFEE8AEC2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift */,
 				EFEE8AEE2BA5A38B006D1711 /* ContentView.swift */,
+				EFEE8B172BA5C10C006D1711 /* EmailFormatter.swift */,
+				EFEE8B192BA5C3AC006D1711 /* WarningData.swift */,
 				EFEE8AF02BA5A38C006D1711 /* Assets.xcassets */,
 				EFEE8AF52BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatter.entitlements */,
 				EFEE8AF22BA5A38C006D1711 /* Preview Content */,
@@ -110,23 +108,6 @@
 				EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EFEE8AFD2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */ = {
-			isa = PBXGroup;
-			children = (
-				EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */,
-			);
-			path = PrivacyManifestsWarningEmailFormatterTests;
-			sourceTree = "<group>";
-		};
-		EFEE8B072BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */,
-				EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */,
-			);
-			path = PrivacyManifestsWarningEmailFormatterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEE8B1A2BA5C3AC006D1711 /* WarningData.swift in Sources */,
+				EFEE8B182BA5C10C006D1711 /* EmailFormatter.swift in Sources */,
 				EFEE8AEF2BA5A38B006D1711 /* ContentView.swift in Sources */,
 				EFEE8AED2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift in Sources */,
 			);
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEE8AFF2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEE8B092BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift in Sources */,
-				EFEE8B0B2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
