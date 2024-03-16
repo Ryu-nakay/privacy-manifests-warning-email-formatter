@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFEE8AED2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8AEC2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift */; };
+		EFEE8AEF2BA5A38B006D1711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8AEE2BA5A38B006D1711 /* ContentView.swift */; };
+		EFEE8AF12BA5A38C006D1711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEE8AF02BA5A38C006D1711 /* Assets.xcassets */; };
+		EFEE8AF42BA5A38C006D1711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */; };
+		EFEE8AFF2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */; };
+		EFEE8B092BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */; };
+		EFEE8B0B2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEE8AFB2BA5A38C006D1711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEE8AE12BA5A38B006D1711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEE8AE82BA5A38B006D1711;
+			remoteInfo = PrivacyManifestsWarningEmailFormatter;
+		};
+		EFEE8B052BA5A38D006D1711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEE8AE12BA5A38B006D1711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEE8AE82BA5A38B006D1711;
+			remoteInfo = PrivacyManifestsWarningEmailFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFEE8AE92BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivacyManifestsWarningEmailFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE8AEC2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterApp.swift; sourceTree = "<group>"; };
+		EFEE8AEE2BA5A38B006D1711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFEE8AF02BA5A38C006D1711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFEE8AF52BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivacyManifestsWarningEmailFormatter.entitlements; sourceTree = "<group>"; };
+		EFEE8AFA2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivacyManifestsWarningEmailFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterTests.swift; sourceTree = "<group>"; };
+		EFEE8B042BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivacyManifestsWarningEmailFormatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterUITests.swift; sourceTree = "<group>"; };
+		EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEE8AE62BA5A38B006D1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8AF72BA5A38C006D1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8B012BA5A38D006D1711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFEE8AE02BA5A38B006D1711 = {
+			isa = PBXGroup;
+			children = (
+				EFEE8AEB2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */,
+				EFEE8AFD2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */,
+				EFEE8B072BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */,
+				EFEE8AEA2BA5A38B006D1711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEE8AEA2BA5A38B006D1711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE8AE92BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter.app */,
+				EFEE8AFA2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.xctest */,
+				EFEE8B042BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEE8AEB2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE8AEC2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift */,
+				EFEE8AEE2BA5A38B006D1711 /* ContentView.swift */,
+				EFEE8AF02BA5A38C006D1711 /* Assets.xcassets */,
+				EFEE8AF52BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatter.entitlements */,
+				EFEE8AF22BA5A38C006D1711 /* Preview Content */,
+			);
+			path = PrivacyManifestsWarningEmailFormatter;
+			sourceTree = "<group>";
+		};
+		EFEE8AF22BA5A38C006D1711 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE8AF32BA5A38C006D1711 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFEE8AFD2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE8AFE2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift */,
+			);
+			path = PrivacyManifestsWarningEmailFormatterTests;
+			sourceTree = "<group>";
+		};
+		EFEE8B072BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE8B082BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift */,
+				EFEE8B0A2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift */,
+			);
+			path = PrivacyManifestsWarningEmailFormatterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEE8AE82BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE8B0E2BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatter" */;
+			buildPhases = (
+				EFEE8AE52BA5A38B006D1711 /* Sources */,
+				EFEE8AE62BA5A38B006D1711 /* Frameworks */,
+				EFEE8AE72BA5A38B006D1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivacyManifestsWarningEmailFormatter;
+			productName = PrivacyManifestsWarningEmailFormatter;
+			productReference = EFEE8AE92BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEE8AF92BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE8B112BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatterTests" */;
+			buildPhases = (
+				EFEE8AF62BA5A38C006D1711 /* Sources */,
+				EFEE8AF72BA5A38C006D1711 /* Frameworks */,
+				EFEE8AF82BA5A38C006D1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEE8AFC2BA5A38C006D1711 /* PBXTargetDependency */,
+			);
+			name = PrivacyManifestsWarningEmailFormatterTests;
+			productName = PrivacyManifestsWarningEmailFormatterTests;
+			productReference = EFEE8AFA2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFEE8B032BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE8B142BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatterUITests" */;
+			buildPhases = (
+				EFEE8B002BA5A38D006D1711 /* Sources */,
+				EFEE8B012BA5A38D006D1711 /* Frameworks */,
+				EFEE8B022BA5A38D006D1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEE8B062BA5A38D006D1711 /* PBXTargetDependency */,
+			);
+			name = PrivacyManifestsWarningEmailFormatterUITests;
+			productName = PrivacyManifestsWarningEmailFormatterUITests;
+			productReference = EFEE8B042BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEE8AE12BA5A38B006D1711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EFEE8AE82BA5A38B006D1711 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EFEE8AF92BA5A38C006D1711 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EFEE8AE82BA5A38B006D1711;
+					};
+					EFEE8B032BA5A38D006D1711 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EFEE8AE82BA5A38B006D1711;
+					};
+				};
+			};
+			buildConfigurationList = EFEE8AE42BA5A38B006D1711 /* Build configuration list for PBXProject "PrivacyManifestsWarningEmailFormatter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEE8AE02BA5A38B006D1711;
+			productRefGroup = EFEE8AEA2BA5A38B006D1711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEE8AE82BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */,
+				EFEE8AF92BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests */,
+				EFEE8B032BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEE8AE72BA5A38B006D1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE8AF42BA5A38C006D1711 /* Preview Assets.xcassets in Resources */,
+				EFEE8AF12BA5A38C006D1711 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8AF82BA5A38C006D1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8B022BA5A38D006D1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEE8AE52BA5A38B006D1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE8AEF2BA5A38B006D1711 /* ContentView.swift in Sources */,
+				EFEE8AED2BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8AF62BA5A38C006D1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE8AFF2BA5A38C006D1711 /* PrivacyManifestsWarningEmailFormatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE8B002BA5A38D006D1711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE8B092BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITests.swift in Sources */,
+				EFEE8B0B2BA5A38D006D1711 /* PrivacyManifestsWarningEmailFormatterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEE8AFC2BA5A38C006D1711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEE8AE82BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */;
+			targetProxy = EFEE8AFB2BA5A38C006D1711 /* PBXContainerItemProxy */;
+		};
+		EFEE8B062BA5A38D006D1711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEE8AE82BA5A38B006D1711 /* PrivacyManifestsWarningEmailFormatter */;
+			targetProxy = EFEE8B052BA5A38D006D1711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFEE8B0C2BA5A38D006D1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFEE8B0D2BA5A38D006D1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EFEE8B0F2BA5A38D006D1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrivacyManifestsWarningEmailFormatter/PrivacyManifestsWarningEmailFormatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrivacyManifestsWarningEmailFormatter/Preview Content\"";
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFEE8B102BA5A38D006D1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrivacyManifestsWarningEmailFormatter/PrivacyManifestsWarningEmailFormatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrivacyManifestsWarningEmailFormatter/Preview Content\"";
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFEE8B122BA5A38D006D1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivacyManifestsWarningEmailFormatter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrivacyManifestsWarningEmailFormatter";
+			};
+			name = Debug;
+		};
+		EFEE8B132BA5A38D006D1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivacyManifestsWarningEmailFormatter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrivacyManifestsWarningEmailFormatter";
+			};
+			name = Release;
+		};
+		EFEE8B152BA5A38D006D1711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PrivacyManifestsWarningEmailFormatter;
+			};
+			name = Debug;
+		};
+		EFEE8B162BA5A38D006D1711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTVD9L8T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.nakayama.PrivacyManifestsWarningEmailFormatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PrivacyManifestsWarningEmailFormatter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEE8AE42BA5A38B006D1711 /* Build configuration list for PBXProject "PrivacyManifestsWarningEmailFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE8B0C2BA5A38D006D1711 /* Debug */,
+				EFEE8B0D2BA5A38D006D1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE8B0E2BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE8B0F2BA5A38D006D1711 /* Debug */,
+				EFEE8B102BA5A38D006D1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE8B112BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE8B122BA5A38D006D1711 /* Debug */,
+				EFEE8B132BA5A38D006D1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE8B142BA5A38D006D1711 /* Build configuration list for PBXNativeTarget "PrivacyManifestsWarningEmailFormatterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE8B152BA5A38D006D1711 /* Debug */,
+				EFEE8B162BA5A38D006D1711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEE8AE12BA5A38B006D1711 /* Project object */;
+}
